@@ -1,0 +1,31 @@
+﻿{
+  "sub_quests": [
+    {
+      "quest_name": "사물함 정리",
+      "sub_quest": 0,
+      "NPC": {
+        "NPC_num": 1,
+        "scene_num": 1,
+        "x_position": -3913,
+        "y_position": 4446
+      },
+      "point_of_arrival": null,
+      "item": null,
+      "minigame_num": 1,
+      "scripts": [
+        {
+          "speakerId": 1,
+          "dialogue": "너 신입생이야?"
+        },
+        {
+          "speakerId": 1,
+          "dialogue": "혹시 내 사물함 정리하는 것 좀 도와줄 수 있을까?"
+        },
+        {
+          "speakerId": 1,
+          "dialogue": "필요한 책이 있으면 가져가도 좋아."
+        }
+      ]
+    }
+  ]
+}

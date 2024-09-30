@@ -1,0 +1,186 @@
+﻿{
+  "quests": [
+    {
+      "quest_name": "여기는 어디지?",
+      "main_quest": 0,
+      "detail_quest": 0,
+      "NPC": {
+        "NPC_num": 1,
+        "scene_num": 0,
+        "x_position": -2885,
+        "y_position": 3501
+      },
+      "point_of_arrival": null,
+      "item": null,
+      "minigame_num": -1,
+      "scripts": [
+        {
+          "speakerId": 1,
+          "dialogue": "한국해양대학교에 오신 것을 환영합니다."
+        },
+        {
+          "speakerId": 1,
+          "dialogue": "오른쪽, 해양인문사회대학"
+        },
+        {
+          "speakerId": 1,
+          "dialogue": "왼쪽, 공학 1관"
+        },
+        {
+          "speakerId": 1,
+          "dialogue": "아래, 방파제길"
+        }
+      ]
+    },
+    {
+      "quest_name": "어디로 가야하지?",
+      "main_quest": 0,
+      "detail_quest": 1,
+      "NPC": null,
+      "point_of_arrival": {
+        "scene": 1,
+        "x_position": -3918,
+        "y_position": 4060
+      },
+      "item": null,
+      "minigame_num": -1,
+      "scripts": [
+        {
+          "speakerId": 0,
+          "dialogue": "도착했다."
+        }
+      ]
+    },
+    {
+      "quest_name": "해양대 입학하기!",
+      "main_quest": 0,
+      "detail_quest": 2,
+      "NPC": {
+        "NPC_num": 2,
+        "scene_num": 1,
+        "x_position": -3588,
+        "y_position": 4372
+      },
+      "point_of_arrival": null,
+      "item": null,
+      "minigame_num": -1,
+      "scripts": [
+        {
+          "speakerId": 2,
+          "dialogue": "해양대에 온걸 환영해요"
+        },
+        {
+          "speakerId": 2,
+          "dialogue": "{c} 학생맞지요?"
+        },
+        {
+          "speakerId": 2,
+          "dialogue": "등록금 200만원을 내시면 입학처리 완료됩니다."
+        },
+        {
+          "speakerId": 0,
+          "dialogue": "500원이 부족해요..."
+        },
+        {
+          "speakerId": 2,
+          "dialogue": "그러면 간단한 심부름 하나만 해줄래요?"
+        },
+        {
+          "speakerId": 2,
+          "dialogue": "3층에 계시는 강조교님을 찾아서 이것 좀 전달해주세요"
+        }
+      ]
+    },
+    {
+      "quest_name": "강 조교님께 물건 전달하기",
+      "main_quest": 0,
+      "detail_quest": 3,
+      "NPC": {
+        "NPC_num": 3,
+        "scene_num": 1,
+        "x_position": -4670,
+        "y_position": 4194
+      },
+      "point_of_arrival": null,
+      "item": null,
+      "minigame_num": -1,
+      "scripts": [
+        {
+          "speakerId": 3,
+          "dialogue": "무슨일이니?"
+        },
+        {
+          "speakerId": 0,
+          "dialogue": "김 조교님께서 이 물건을.."
+        },
+        {
+          "speakerId": 3,
+          "dialogue": "아 김 조교님께서 전달하라고 하셨어?"
+        },
+        {
+          "speakerId": 3,
+          "dialogue": "그래 고맙다 수고했어~"
+        }
+      ]
+    },
+    {
+      "quest_name": "김 조교님께 심부름 완료 알리기",
+      "main_quest": 0,
+      "detail_quest": 4,
+      "NPC": {
+        "NPC_num": 2,
+        "scene_num": 1,
+        "x_position": -3588,
+        "y_position": 4372
+      },
+      "point_of_arrival": null,
+      "item": null,
+      "minigame_num": -1,
+      "scripts": [
+        {
+          "speakerId": 2,
+          "dialogue": "도와줘서 고마워요~"
+        },
+        {
+          "speakerId": 2,
+          "dialogue": "심부름비 500원 추가해서 등록 처리 해드릴게요!"
+        },
+        {
+          "speakerId": 2,
+          "dialogue": "학생증 여기 있어요! 우리학교 학생이 된걸 축하해요!"
+        },
+        {
+          "speakerId": 0,
+          "dialogue": "(학생증을 얻었다.)"
+        }
+      ]
+    },
+    {
+      "quest_name": "집에 돌아가기",
+      "main_quest": 0,
+      "detail_quest": 5,
+      "NPC": null,
+      "point_of_arrival": {
+        "scene": 0,
+        "x_position": -2601,
+        "y_position": 2874
+      },
+      "item": null,
+      "minigame_num": 0,
+      "scripts": [
+        {
+          "speakerId": 0,
+          "dialogue": "이제 집에 가볼까?"
+        },
+        {
+          "speakerId": 0,
+          "dialogue": "어? 아까 받은 학생증이 어디있지..?"
+        },
+        {
+          "speakerId": 0,
+          "dialogue": "설마 바다 위에 떠 있는 저게 내 학생증인가?"
+        }
+      ]
+    }
+  ]
+}
